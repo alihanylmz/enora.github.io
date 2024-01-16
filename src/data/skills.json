@@ -1,0 +1,38 @@
+[
+    {
+      "title": "Garanti ",
+      "imageSrc": "skills/GarantiIcon.png"
+    },
+    {
+      "title": "TESLA",
+      "imageSrc": "skills/teslaIcon.png"
+    },
+    {
+      "title": "Samsung",
+      "imageSrc": "skills/samsungIcon.png"
+    },
+    {
+      "title": "Vodafone",
+      "imageSrc": "skills/vodafoneIcon.png"
+    },
+    {
+      "title": "Carrefour",
+      "imageSrc": "skills/carrefourIcon.png"
+    },
+    {
+      "title": "Çankaya",
+      "imageSrc": "skills/cankayaIcon.png"
+    },
+    {
+      "title": "Yenimahalle",
+      "imageSrc": "skills/GarantiIcon.png"
+    },
+    {
+      "title": "Etimesgut",
+      "imageSrc": "skills/GarantiIcon.png"
+    },
+    {
+      "title": "Sağlık Bakanlığı",
+      "imageSrc": "skills/GarantiIcon.png"
+    }
+  ]

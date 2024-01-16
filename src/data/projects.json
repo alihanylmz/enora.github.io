@@ -1,0 +1,35 @@
+[
+    {
+      "title": "Tesla Showroom",
+      "imageSrc": "project/tesla.jpeg",
+      "project": "Ankara Armada AVM otoparkına inşa ettiğimiz Tesla showroom",
+      "skills": ["React", "Express", "Node"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    },
+    {
+      "title": "Tasarım",
+      "imageSrc": "services/graphic-designer.png",
+      "project": "This is a project made to learn the latest languages by building an app.",
+      "skills": ["React", "Express", "Node", "Sass"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    },
+    {
+      "title": "Tabela & Totem",
+      "imageSrc": "services/printing.png",
+      "project": "This is a project made to learn the latest languages by building an app.",
+      "skills": ["React", "Express", "Node", "Sass"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    },    {
+      "title": "Dijital Baskı",
+      "imageSrc": "services/printing-machine.png",
+      "project": "This is a project made to learn the latest languages by building an app.",
+      "skills": ["React", "Express", "Node", "Sass"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    }
+
+    
+  ]

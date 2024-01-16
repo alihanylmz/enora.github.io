@@ -1,0 +1,407 @@
+.Contact{
+    background-color:transparent;
+    display: flex;
+    flex-direction: column;
+    margin:150px;
+
+}
+.Contact>h1{
+    position: relative;
+    margin-top: 1px;
+    margin-left: -90%;
+}
+.Contact>h4{
+color: wheat;
+}
+
+.socialmedia{
+    
+    display: flex;
+    width: 150px;
+    margin-left: 42%;
+    position: absolute;
+
+}
+
+.telgps
+{
+    position: absolute;
+    margin-left: 750px;
+}
+
+
+
+.instagram{
+    background-color: aliceblue;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(150deg, #0f51cb 0%, rgba(25, 55, 109, 0) 100%);
+    border-radius: 100%;
+    padding: 5px;
+    box-shadow: 1px 1px 10px rgba(0, 86, 247, 0.893);
+    cursor: pointer;
+}
+
+
+.instagram:hover{
+    background-color: purple;
+}
+.linkedin{
+    background-color: aliceblue;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(150deg, #0f51cb 0%, rgba(25, 55, 109, 0) 100%);
+    border-radius: 100%;
+    padding: 5px;
+    box-shadow: 1px 1px 10px rgba(0, 86, 247, 0.893);
+    cursor: pointer;
+    margin-left: 100% ;
+    
+}
+
+
+.linkedin:hover{
+    background-color: purple;
+}
+
+.gps{
+    background-color: transparent ;
+    position: relative;
+    flex-direction: row;
+    display: flex;
+    width: 800px;
+    height: 80px;
+    margin-top: 45px;
+    border-width: 3px;
+    border-style: solid;
+    border-bottom-left-radius: 55px;
+    border-top-left-radius: 55px;
+    border-color: rgba(255, 0, 255, 0.309);
+
+}
+.gps>img{
+    background-color: aliceblue;
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    box-shadow: 1px 1px 10px rgba(0, 86, 247, 0.893);
+    background: linear-gradient(150deg, #0f51cb 0%, rgba(25, 55, 109, 0) 100%);
+    cursor: pointer;
+
+}
+.gps>h1{  
+    position: absolute;
+    display: flex;
+    background-color: transparent;
+    font-size: 25px;
+    margin:auto;
+    margin-left: 50px;
+    margin-top: 5px;   
+}
+
+.gps>img:hover{
+    background-color: purple;
+}
+.phone{
+    background-color: transparent ;
+    display: flex;
+    width: 800px;
+    height: 80px;
+    margin-top: 45px;
+    border-width: 3px;
+    border-style: solid;
+    border-bottom-left-radius: 55px;
+    border-top-left-radius: 55px;
+    border-color: rgba(255, 0, 255, 0.309);
+}
+.phone>img{
+    background-color: aliceblue;
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    box-shadow: 1px 1px 10px rgba(0, 86, 247, 0.893);
+    background: linear-gradient(150deg, #0f51cb 0%, rgba(25, 55, 109, 0) 100%);
+    cursor: pointer;
+
+}
+.phone>h1{  
+    position: absolute;
+    display: flex;
+    background-color: transparent;
+    font-size: 25px;
+    margin:auto;
+    margin-left: 300px;
+    margin-top: 15px;   
+}
+
+.phone>img:hover{
+    background-color: purple;
+}
+.email{
+    background-color: transparent ;
+    display: flex;
+    width: 800px;
+    height: 80px;
+    margin-top: 45px;
+    border-width: 3px;
+    border-style: solid;
+    border-bottom-left-radius: 55px;
+    border-top-left-radius: 55px;
+    border-color: rgba(255, 0, 255, 0.309);
+}
+.email>img{
+    background-color: aliceblue;
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    box-shadow: 1px 1px 10px rgba(0, 86, 247, 0.893);
+    background: linear-gradient(150deg, #0f51cb 0%, rgba(25, 55, 109, 0) 100%);
+    cursor: pointer;
+
+}
+
+.email>img:hover{
+    background-color: purple;
+}
+
+.email>h1{  
+    position: absolute;
+    display: flex;
+    background-color: transparent;
+    font-size: 25px;
+    margin:auto;
+    margin-left: 300px;
+    margin-top: 15px;   
+}
+
+
+
+.Contact >p{
+    font-size: 18px;
+    color:aliceblue;
+}
+.adresdiv{
+    display: flex;
+    margin: 150px;
+}
+
+.name{
+    display: flex;
+    background-color: transparent;
+    width: 550px;
+    margin-top: -15px ;
+    margin-right: 25px;
+    position: relative;
+    margin-top: 50px;
+}
+
+.name2{
+    
+    background-color:  rgb(23, 4, 45);
+    display: flex;
+  justify-content: center;
+    position: absolute;
+    width: 95px;
+    height: 25px;
+    margin-left: 265px;
+    margin-top: -10px;
+    left: -230px;
+    margin-bottom: 15px;
+    
+}
+.name2 > label{
+    color: aquamarine;
+    
+}
+
+.name1
+{   
+    width: 550px;
+    height: 55px;
+    border-radius: 35px;
+    padding-left: 10%;
+    background-color: transparent;
+    border-color: rgb(255, 0, 255);
+    border-width: 5px;
+    font-size: 15px;
+    color: aliceblue;
+}
+
+.epostadiv{
+    display: flex;
+    background-color: transparent;
+    width: 550px;
+    margin-top: 25px;
+    margin-right: 25px;
+    position: relative;
+    
+}
+
+.eposta1{
+    background-color:  rgb(23, 4, 45);
+    display: flex;
+  justify-content: center;
+    position: absolute;
+    width: 95px;
+    height: 25px;
+    margin-left: 265px;
+    margin-top: -10px;
+    left: -230px;
+    margin-bottom: 15px;
+}
+
+.eposta1 > label{
+    color: aquamarine;
+}
+
+.eposta2{
+    width: 550px;
+    height: 55px;
+    border-radius: 35px;
+    padding-left: 10%;
+    background-color: transparent;
+    border-color: rgb(255, 0, 255);
+    border-width: 5px;
+    font-size: 15px;
+    color: aliceblue;
+}
+
+.konudiv{
+    display: flex;
+    background-color: transparent;
+    width: 550px;
+    margin-right: 25px;
+    margin-top: 25px;
+    position: relative;
+
+}
+
+.konu1
+{
+    background-color:  rgb(23, 4, 45);
+    display: flex;
+  justify-content: center;
+    position: absolute;
+    width: 95px;
+    height: 25px;
+    margin-left: 265px;
+    margin-top: -10px;
+    left: -230px;
+    margin-bottom: 15px;
+}
+.konu1 > label{
+    color: aquamarine;
+}
+.konu2
+{
+    width: 550px;
+    height: 55px;
+    border-radius: 35px;
+    padding-left: 10%;
+    background-color: transparent;
+    border-color: rgb(255, 0, 255);
+    border-width: 5px;
+    font-size: 15px;
+    color: aliceblue;
+}
+
+.mesajdiv{
+    display: flex;
+    background-color: transparent;
+    width: 550px;
+    margin-right: 25px;
+    position: relative;
+    margin-top: 25px;
+
+}
+
+.mesaj1
+{
+    background-color:  rgb(23, 4, 45);
+    display: flex;
+  justify-content: center;
+    position: absolute;
+    width: 95px;
+    height: 25px;
+    margin-left: 265px;
+    margin-top: -10px;
+    left: -230px;
+    margin-bottom: 15px;
+}
+.mesaj1 > label{
+    color: aquamarine;
+}
+.mesaj2
+{
+    width: 550px;
+    height: 200px;
+    border-radius: 35px;
+    padding-left: 10%;
+    padding-top: 2%;
+    background-color: transparent;
+    border-color: rgb(255, 0, 255);
+    border-width: 5px;
+    font-size: 15px;
+    color: aliceblue;
+}
+.mesaj2>textarea{
+    text-align: center;
+}
+
+.buttondiv {
+    display: flex;
+    background-color: transparent;
+    width: 550px;
+    margin-right: 25px;
+    position: relative;
+    margin-top: 25px;
+}
+
+.button{
+        width: 150px;
+    display: flex;
+    height: 50px;
+    background-color: salmon;
+    border-radius: 50px;
+    background: linear-gradient(150deg, rgba(255,0,255) 0%, rgba(25, 55, 109, 0) 100%);
+    text-align: left;
+    padding-left: 10%;
+    font-size: 1.05rem;
+    color: azure;
+    border:none;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 15px;
+    position: absolute;
+    flex-direction: row;
+}
+.button:hover{
+    background-color: rgb(25, 54, 109);
+}
+
+.w
+{ 
+
+    width: 300px;
+    height: 50px;
+    margin-left: 45% ;
+
+    
+
+}
+
+.w>h1{
+    position: absolute;
+    font-size: 15px;
+    margin-top: 8%;
+    font-weight: 100;
+    margin-bottom: 2rem;
+}
+.sup>img{
+    width: auto;
+    height: auto;
+    margin-inline-start: 2%;
+}

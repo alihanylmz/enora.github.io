@@ -1,0 +1,135 @@
+@import "../../vars.css";
+
+.navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 61px;
+    z-index: 2;
+    margin: 0 10%;
+    
+
+}
+.menuBtn {
+    display: none;
+}
+
+.title{
+    font-size:60px;
+    font-weight: 600;
+    text-decoration: none;
+    position: relative;
+    color: transparent;
+    background-image: linear-gradient(90deg, #8701f5,#002fff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: colorChange 5s infinite linear; /* Renk animasyonu (5 saniye sürekli tekrar) */
+    text-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+
+
+}
+@keyframes colorChange {
+    0% {
+        color: rgb(148, 0, 211); /* Mor */
+    }
+    16.66% {
+        color: rgb(116, 0, 211); /* Mor */
+    }
+    33.33% {
+        color: rgb(63, 0, 211); /* Mor */
+    }
+    50% {
+        color: rgb(0, 4, 211); /* Mor */
+    }
+    66.66% {
+        color: rgb(63, 0, 211); /* Mor */
+    }
+    83.33% {
+        color: rgb(116, 0, 211); /* Mor */
+    }
+    100% {
+        color: rgb(148, 0, 211); /* Mor */
+    }
+}
+.title2{
+    
+    font-size: 10px;
+    text-decoration: none;
+    position: absolute;
+    color: transparent;
+    background-clip: text;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--color-text);
+    white-space: nowrap;
+    margin-top: 71px;
+    margin-left: 25px;
+    
+    }
+
+    .menu{
+        display: flex;
+
+    }
+    .menuItem{
+        display: flex;
+        gap: 47px;
+        list-style: none;
+
+    }
+    .menuItem a{
+        font-size: 25px;
+        color: var(--color-text);
+        text-decoration: none;
+    }
+
+    .menuItem a:hover {
+    text-shadow: 0 16px 16px rgba(140, 0, 255); 
+    color: transparent;
+    background-image: linear-gradient(90deg,#8000ff, #00bfff);
+    background-clip: text;
+    background-position: 100% 100;
+}
+@media screen and (max-width: 830px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .menu {
+      position: absolute;
+      right: 0;
+      margin-right: 10%;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 11px;
+      z-index: 3;
+    }
+  
+    .menuBtn {
+      display: block;
+      cursor: pointer;
+    }
+  
+    .menuItem {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      gap: 13px;
+      border-radius: 10px;
+      background: rgb(25, 55, 109);
+      background: linear-gradient(
+        0deg,
+        rgba(25, 55, 109, 0.2) 0%,
+        rgba(25, 55, 109, 1) 100%
+      );
+      padding: 24px 33px;
+      box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    }
+  
+    .menuOpen {
+      display: flex;
+      z-index: 1;
+    }
+  }
